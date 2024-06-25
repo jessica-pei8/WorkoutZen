@@ -1,114 +1,130 @@
 <!DOCTYPE html>
 <html class=pageOne>
 
-<head class=headPageOne >
+<head class=headPageOne>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>WorkoutZen</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+
+  <style>
+    html,
+    body {
+      background-image: url("assets/zen.jpg");
+      background-size: cover;
+    }
+  </style>
 
 </head>
 
-<body class="homepage">
-  
-<div class=pageOneAll> 
-  <div id="navbar">
-    <a href="index.html"> WorkoutZen</a>
-    <div id="navbarright">
-      <a href="checklist.html"> To-Do List</a>
-      <a href="musclelist.html">Muscles</a>
-      <a href="warmup.html">Warm-up</a>
-      <a href="cooldown.html">Cool-down</a>
-      <a href="equip.html">Equipment</a>
-    </div>
-  </div>
+<body id="everything" class="homepage">
 
-  <div id="alerts">
-    <marquee direction="right" behavior="alternate">
-      Make sure to check out our warm-up before you workout!
-    </marquee>
-  </div>
-
-  <center>
-    <div id="intro">
-      <h1> 🌿Welcome to WorkoutZen🌿</h1>
-      <p>WorkoutZen is a website dedicated to helping anyone efficiently search for workout/exercise routines that really work and target specific muscles in one convenient place. In addition to physically working out, WorkoutZen also focuses on “exercising” the brain to keep your entire body healthy and fit!</p>
-      <h3>Click on any colored muscle to get started or view the color chart for inspiration...</h3>
-      <h3>Check out the playlist below for workout music... </h3>
+  <div class=pageOneAll>
+    <div id="navbar">
+      <a href="index.html"> WorkoutZen</a>
+      <div id="navbarright">
+        <a href="checklist.html"> To-Do List</a>
+        <a href="musclelist.html">Muscles</a>
+        <a href="warmup.html">Warm-up</a>
+        <a href="cooldown.html">Cool-down</a>
+        <a href="equip.html">Equipment</a>
+      </div>
     </div>
 
-    <img id="man" src="body.png" alt="Body" usemap="#body">
-    <img id="key" src="key.png" alt="Key" usemap="#key">
-  </center>
-  
-<map name= "key">
-  <area shape="rect" coords="75,200,140,255" href="body.html">
-  </map>
-  
-  <map name="body">
-    <area shape="rect" coords="170,42,266,154" href="head.html">
-    <area shape="rect" coords="597,40,681,135" href="head.html">
+    <div id="alerts">
+      <marquee direction="right" behavior="alternate">
+        Make sure to check out our warm-up before you workout!
+      </marquee>
+    </div>
 
-    <area shape="poly" coords="224,175,254,164,289,204,256,221,220,213" href="chest.html">
-    <area shape="poly" coords="184,163,215,178,216,213,183,221,149,205" href="chest.html">
+    <center>
+      <div id="intro">
+        <h1> 🌿Welcome to WorkoutZen🌿</h1>
+        <p>WorkoutZen is a website dedicated to helping anyone efficiently search for workout/exercise routines that
+          really work and target specific muscles in one convenient place. In addition to physically working out,
+          WorkoutZen also focuses on “exercising” the brain to keep your entire body healthy and fit!</p>
+        <h3>Click on any colored muscle to get started or view the color chart for inspiration...</h3>
+        <h3>Check out the playlist below for workout music... </h3>
+      </div>
 
-    <area shape="poly" coords="180,157,126,161,126,213,148,202,179,161" href="shoulders.html">
-    <area shape="poly" coords="254,160,311,162,312,212,389,204,257,160" href="shoulders.html">
-    <area shape="poly" coords="601,145,547,150,541,200,603,154" href="shoulders.html">
-    <area shape="poly" coords="684,145,732,152,740,201,709,173,678,153" href="shoulders.html">
+      <img id="man" src="assets/body.png" alt="Body" usemap="#body">
+      <img id="key" src="assets/key.png" alt="Key" usemap="#key">
+    </center>
 
-    <area shape="poly" coords="158,212,182,222,190,318,199,356,161,325,165,270,156,239" href="obliques.html">
-    <area shape="poly" coords="246,222,280,211,281,235,273,252,276,325,231,364,248,298" href="obliques.html">
+    <map name="key">
+      <area shape="rect" coords="75,200,140,255" href="body.html">
+    </map>
 
-    <area shape="poly" coords="126,213,146,205,155,213,155,236,140,264,116,275,114,253" href="biceps.html">
-    <area shape="poly" coords="280,211,291,202,311,214,324,243,322,272,294,263,281,236" href="biceps.html">
+    <map name="body">
+      <area shape="rect" coords="170,42,266,154" href="head.html">
+      <area shape="rect" coords="597,40,681,135" href="head.html">
 
-    <area shape="poly" coords="114,254,117,276,141,264,134,294,88,346,70,240,89,288" href="forearms.html">
-    <area shape="poly" coords="298,266,321,273,324,258,349,290,366,340,352,348,306,300" href="forearms.html">
+      <area shape="poly" coords="224,175,254,164,289,204,256,221,220,213" href="chest.html">
+      <area shape="poly" coords="184,163,215,178,216,213,183,221,149,205" href="chest.html">
 
-    <area shape="poly"
-      coords="170,330,148,385,144,438,162,480,192,490,243,491,274,483,293,445,290,386,268,331,226,378,210,379"
-      href="quads.html">
+      <area shape="poly" coords="180,157,126,161,126,213,148,202,179,161" href="shoulders.html">
+      <area shape="poly" coords="254,160,311,162,312,212,389,204,257,160" href="shoulders.html">
+      <area shape="poly" coords="601,145,547,150,541,200,603,154" href="shoulders.html">
+      <area shape="poly" coords="684,145,732,152,740,201,709,173,678,153" href="shoulders.html">
 
-    <area shape="poly" coords="185,222,216,215,245,223,249,279,243,303,218,309,186,300,184,267" href="abdominals.html">
+      <area shape="poly" coords="158,212,182,222,190,318,199,356,161,325,165,270,156,239" href="obliques.html">
+      <area shape="poly" coords="246,222,280,211,281,235,273,252,276,325,231,364,248,298" href="obliques.html">
 
-    <area shape="poly" coords="542,201,271,189,576,217,573,238,552,267,527,256,526,241" href="triceps.html">
-    <area shape="poly" coords="712,185,739,201,757,248,748,264,729,268,705,226" href="triceps.html">
+      <area shape="poly" coords="126,213,146,205,155,213,155,236,140,264,116,275,114,253" href="biceps.html">
+      <area shape="poly" coords="280,211,291,202,311,214,324,243,322,272,294,263,281,236" href="biceps.html">
 
-    <area shape="poly"
-      coords="600,144,640,134,684,145,680,152,692,161,707,171,718,184,705,203,702,247,698,313,676,308,656,319,640,338,626,319,585,315,579,259,573,177,602,154"
-      href="back.html">
+      <area shape="poly" coords="114,254,117,276,141,264,134,294,88,346,70,240,89,288" href="forearms.html">
+      <area shape="poly" coords="298,266,321,273,324,258,349,290,366,340,352,348,306,300" href="forearms.html">
 
-    <area shape="poly"
-      coords="608,313,585,336,576,363,577,379,582,393,602,401,633,400,650,401,685,396,706,380,706,367,675,313,659,316,640,339,629,323"
-      href="glutes.html">
+      <area shape="poly"
+        coords="170,330,148,385,144,438,162,480,192,490,243,491,274,483,293,445,290,386,268,331,226,378,210,379"
+        href="quads.html">
 
-    <area shape="poly" coords="578,362,566,384,563,433,570,464,565,502,574,499,599,534,621,486,634,427,635,400,579,401"
-      href="hamstring.html">
-    <area shape="poly" coords="646,403,705,401,707,367,716,368,720,500,705,498,667,488,648,430" href="hamstring.html">
+      <area shape="poly" coords="185,222,216,215,245,223,249,279,243,303,218,309,186,300,184,267"
+        href="abdominals.html">
 
-    <area shape="poly" coords="564,504,574,497,593,536,600,599,547,595,547,557" href="calves.html">
-    <area shape="poly" coords="686,531,711,503,730,509,741,593,696,601,684,574" href="calves.html">
+      <area shape="poly" coords="542,201,271,189,576,217,573,238,552,267,527,256,526,241" href="triceps.html">
+      <area shape="poly" coords="712,185,739,201,757,248,748,264,729,268,705,226" href="triceps.html">
 
-    <area shape="rect" coords="131,520,188,646" href="shins.html">
-    <area shape="rect" coords="244,520,307,646" href="shins.html">
+      <area shape="poly"
+        coords="600,144,640,134,684,145,680,152,692,161,707,171,718,184,705,203,702,247,698,313,676,308,656,319,640,338,626,319,585,315,579,259,573,177,602,154"
+        href="back.html">
 
-  </map>
-  <center>
-      <iframe id = "playlist" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWUVpAXiEPK8P?utm_source=generator" width="70%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-  </center>
-  
-  <script src="script.js"></script>
+      <area shape="poly"
+        coords="608,313,585,336,576,363,577,379,582,393,602,401,633,400,650,401,685,396,706,380,706,367,675,313,659,316,640,339,629,323"
+        href="glutes.html">
+
+      <area shape="poly"
+        coords="578,362,566,384,563,433,570,464,565,502,574,499,599,534,621,486,634,427,635,400,579,401"
+        href="hamstring.html">
+      <area shape="poly" coords="646,403,705,401,707,367,716,368,720,500,705,498,667,488,648,430" href="hamstring.html">
+
+      <area shape="poly" coords="564,504,574,497,593,536,600,599,547,595,547,557" href="calves.html">
+      <area shape="poly" coords="686,531,711,503,730,509,741,593,696,601,684,574" href="calves.html">
+
+      <area shape="rect" coords="131,520,188,646" href="shins.html">
+      <area shape="rect" coords="244,520,307,646" href="shins.html">
+
+    </map>
+    <center>
+      <iframe id="playlist" style="border-radius:12px"
+        src="https://open.spotify.com/embed/playlist/37i9dQZF1DWUVpAXiEPK8P?utm_source=generator" width="70%"
+        height="380" frameBorder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    </center>
+
+    <script src="script.js"></script>
   </div>
 </body>
+
 </html>
