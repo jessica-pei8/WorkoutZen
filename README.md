@@ -1,5 +1,5 @@
 # WorkoutZen
-![WorkoutZen Picture](body.png)
+![WorkoutZen Picture](assets/body.png)
 https://replit.com/@jessicaaap/WorkoutZen?v=1
 
 WorkoutZen is an interactive and responsive web application deployed on Replit designed to help users efficiently search for workout and exercise routines that target specific muscles, all in one convenient place. Beyond physical workouts, WorkoutZen also emphasizes the importance of brain exercises to maintain overall body health and fitness.
